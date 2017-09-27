@@ -1,0 +1,10 @@
+/*
+ * Copyright 2017 Palantir Technologies, Inc. All rights reserved.
+ */
+
+apply from: "${rootDir}/gradle/publish.gradle"
+
+
+dependencies {
+    compile group: 'io.dropwizard.metrics', name: 'metrics-core'
+}
