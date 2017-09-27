@@ -4,7 +4,6 @@
 
 apply from: "${rootDir}/gradle/publish.gradle"
 
-
 dependencies {
     compile group: 'io.dropwizard.metrics', name: 'metrics-core'
 }

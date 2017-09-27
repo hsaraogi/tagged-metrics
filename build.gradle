@@ -29,7 +29,7 @@ dependencies {
 }
 
 allprojects {
-    group 'com.palantir.safe-logging'
+    group 'com.palantir.tagged-metrics'
     version gitVersion()
 
     apply plugin: 'com.palantir.configuration-resolver'

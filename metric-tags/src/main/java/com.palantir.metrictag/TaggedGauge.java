@@ -4,8 +4,9 @@
 
 package com.palantir.metrictag;
 
+import com.codahale.metrics.Gauge;
 import java.util.Map;
 
-public abstract class TaggedMetric<T> implements Ta {
-    public abstract Map<String, String> getTag();
+public interface TaggedGauge<T> extends Gauge<T> {
+    Map<String, String> getTags();
 }
